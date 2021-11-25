@@ -1,0 +1,41 @@
+.Dictionary h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Titan One', cursive;
+}
+
+.Dictionary .search {
+    min-height: 60px;
+    padding: 10px 70px 10px 32px;
+    font-size: 16px;
+    color: #666;
+    border-radius: 34px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.Dictionary .btn-search {
+    width: 70px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    border: 0;
+    padding: 0;
+    /* background: transparent; */
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.Dictionary .fa-search {
+    color: #fff;
+}
+
+.Dictionary .input-field {
+    width: 100%;
+    position: relative;
+}
