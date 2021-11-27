@@ -26,7 +26,7 @@ export default function Dictionary() {
             <h1>what are you looking for?</h1>
             <form className="input-field" onSubmit={search}>
                 <input type="search" placeholder="search for a word" className="search form-label" onChange={handleKeywordChange} />
-                <button className="btn-search" type="button"><i className="fas fa-search"></i></button>
+                <button className="btn-search" type="button">Search</button>
             </form>
             <Results results={results} />
         </div>

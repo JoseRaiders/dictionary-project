@@ -19,9 +19,9 @@
 .Dictionary .btn-search {
     width: 70px;
     position: absolute;
-    right: 0;
+    right: 42px;
     top: 0;
-    height: 100%;
+    height: 60%;
     border: 0;
     padding: 0;
     background: transparent;
@@ -40,7 +40,7 @@
 }
 
 .Dictionary .input-field {
-    width: 70%;
+    width: 100%;
     height: 100%;
     position: relative;
     left: 0;
