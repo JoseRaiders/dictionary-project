@@ -24,9 +24,11 @@ export default function Dictionary() {
     return (
         <div className="Dictionary">
             <h1>what are you looking for?</h1>
-            <form className="input-field" onSubmit={search}>
-                <input type="search" placeholder="search for a word" className="search form-label" onChange={handleKeywordChange} />
-                <button className="btn-search" type="button">Search</button>
+            <form action="" className="search-bar" onSubmit={search}>
+                <input type="search" name="search" placeholder="search for a word" onChange={handleKeywordChange} autoComplete="off" pattern=".*\S.*" required />
+                <button className="search-btn" type="submit">
+                    <span>Search</span>
+                </button>
             </form>
             <Results results={results} />
         </div>
