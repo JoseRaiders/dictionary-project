@@ -7,7 +7,7 @@
 
 .Dictionary h1 {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     font-family: 'Titan One', cursive;
 }
 
@@ -58,6 +58,7 @@ body, .search-bar {
   padding: 1.5em;
   justify-content: center;
   max-width: 30em;
+  margin-bottom: 20px;
 }
 
 .search-bar input {
@@ -169,4 +170,12 @@ body, .search-bar {
   .search-btn {
     background: #f1f1f1;
   }
+}
+
+.Dictionary section {
+  background: #000;
+  box-shadow: 5px 5px 15px 5px rgba(255,255,255,0.2);
+  padding: 30px;
+  border-radius: 1.5em;
+  margin-bottom: 25px;
 }
