@@ -179,3 +179,10 @@ body, .search-bar {
   border-radius: 1.5em;
   margin-bottom: 25px;
 }
+
+.Dictionary .Synonyms li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 10px;
+  font-size: 12px;
+}
